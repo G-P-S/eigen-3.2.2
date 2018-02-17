@@ -1,0 +1,13 @@
+{
+    "version": "1.0.0",
+
+    "info": {
+         "type": "lib",
+         "visibility": "private",
+         "platforms": ["android", "ios", "linux", "macos", "win"]
+    },
+
+    "deps": [
+    ]
+}
+
