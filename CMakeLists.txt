@@ -324,7 +324,7 @@ install(FILES
   )
 
 if(EIGEN_BUILD_PKGCONFIG)
-    configure_file(eigen3.pc.in eigen3.pc)
+    configure_file(eigen3.pc.in eigen3.pc @ONLY)
     install(FILES ${CMAKE_CURRENT_BINARY_DIR}/eigen3.pc
         DESTINATION lib/pkgconfig
         )
