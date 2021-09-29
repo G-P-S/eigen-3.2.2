@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "rules": {
+    "root": "./",
+    "flags": "-DEIGEN_BUILD_PKGCONFIG=ON"
+  }
+}
